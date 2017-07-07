@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+        "spec": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\cxb\\AppData\\Local\\Temp\\apm-install-dir-11719-18128-1bw1d3t"
+    ]
+  ],
+  "_from": "..\\d-11719-18128-9i22yd\\package.tgz",
+  "_id": "activate-power-mode@1.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/activate-power-mode",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+    "spec": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11719-18128-9i22yd\\package.tgz",
+  "_shasum": "7167d3cd9752bb605d1935d62706f691dda077f1",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\cxb\\AppData\\Local\\Temp\\d-11719-18128-9i22yd\\package.tgz",
+  "_where": "C:\\Users\\cxb\\AppData\\Local\\Temp\\apm-install-dir-11719-18128-1bw1d3t",
+  "author": {
+    "name": "Joel Besada",
+    "email": "joel@joelb.me",
+    "url": "http://joelb.me"
+  },
+  "bugs": {
+    "url": "https://github.com/JoelBesada/activate-power-mode/issues"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "lodash.defer": "^4.1.0",
+    "lodash.random": "^3.1.5",
+    "lodash.sample": "^4.2.1",
+    "lodash.throttle": "^4.0.1"
+  },
+  "description": "Activate POWER MODE to write your code in style.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/JoelBesada/activate-power-mode#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/activate-power-mode",
+  "name": "activate-power-mode",
+  "optionalDependencies": {},
+  "readme": "# Activate Power Mode\n\nA package for Atom to replicate the effects from [codeinthedark/editor](https://github.com/codeinthedark/editor).\n\n![activate-power-mode-0 4 0](https://cloud.githubusercontent.com/assets/688415/11615565/10f16456-9c65-11e5-8af4-265f01fc83a0.gif)\n\nNow with a COMBO MODE!!!\n\n![activate-power-mode-combo](https://cloud.githubusercontent.com/assets/10590799/18817237/876c2d84-8321-11e6-8324-f1540604c0bd.gif)\n\n**For a list of power mode packages to other editors, check out [codeinthedark/awesome-power-mode](https://github.com/codeinthedark/awesome-power-mode).**\n\n## Install\n\nWith the atom package manager:\n```bash\napm install activate-power-mode\n```\nOr Settings ➔ Packages ➔ Search for `activate-power-mode`\n\n## Usage\n\nActivate with <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>O</kbd> or through the command panel with `Activate Power Mode: Toggle`. Use the command again to deactivate.\n\n## Settings\n\n### Auto Toggle\nAuto enable power mode on atom start.\n\n### Combo Mode\n* **Enable/Disable**\n\nWhen enabled effects won't appear until reach the activation threshold.\n\n* Activation Threshold\n* Streak Timeout\n* Exclamation Every\n* Exclamation Texts\n\n### Screen Shake\n* **Enable/Disable**\n* Intensity\n\n### Particles\n* **Enable/Disable**\n* Colour\n\nWith this option you can select if use the color at cursor position, random colors or a fixed one.\n\n* Total Count\n* Spawn Count\n* Size\n\n### Excluded File Types\n* Array of file types to exclude\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelBesada/activate-power-mode.git"
+  },
+  "version": "1.2.0"
+}

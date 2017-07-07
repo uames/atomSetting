@@ -1,0 +1,16 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      enabled: false
+  core:
+    automaticallyUpdate: false
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+  editor: {}
+  "exception-reporting":
+    userId: "2ee16605-2f3e-cf08-6236-d05f52142cf3"
+  "markdown-preview": {}
+  minimap:
+    adjustAbsoluteModeHeight: true
+  welcome:
+    showOnStartup: false
